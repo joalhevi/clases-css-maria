@@ -1,0 +1,256 @@
+body {
+    background-color: #f2f2f2;
+    font-size: 16px;
+    color: #161616;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, .2);
+    padding: 4px;
+}
+
+nav {
+    width: 100%;
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul {
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li>a {
+    display: block;
+    text-decoration: none;
+    color: #161616;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+#logo {
+    width: 150px;
+}
+
+#logo img {
+    width: 100%;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.btn-menu {
+    width: 25px;
+    padding-right: 10px;
+}
+
+.btn-menu img {
+    width: 100%;
+}
+
+.encabezado {
+    width: 90vh;
+}
+
+.yo .titulo {
+    text-align: center;
+    font-weight: 600;
+    color: #1d71b8;
+    font-size: 2.2rem;
+    margin: 18px 0 0 0;
+    padding: 25px 0;
+}
+
+.yo p {
+    font-size: 0.8rem;
+    text-align: center;
+    color: #504f4f;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-contacto {
+    display: block;
+    border: 1px solid #1d71b8;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: #161616;
+    border-radius: 5px;
+    margin: 1rem .4rem;
+}
+
+.btn-contacto:hover,
+.btn-contacto:focus {
+    background-color: #1d71b8;
+    color: white;
+}
+
+.yo-imagen {
+    width: 100%;
+    text-align: center;
+}
+
+.yo-imagen img {
+    width: 100%;
+}
+
+#sobre-mi {
+    background-color: #fcfcfc
+}
+
+.titulos-secciones {
+    width: auto;
+    color: #1d71b8;
+    text-align: center;
+    position: relative;
+    padding: 25px 0 10px 0;
+}
+
+.titulos-secciones::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    bottom: 1px;
+    border-radius: 2px;
+    background-color: #1d71b8;
+}
+
+.bio {
+    text-align: justify;
+    padding: 0 1rem;
+}
+
+.btn-descargar {
+    display: block;
+    border: 1px solid #1d71b8;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 700;
+    text-align: center;
+    color: #161616;
+    border-radius: 5px;
+    margin: 1rem .4rem;
+}
+
+.proyecto {
+    width: 95%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .1);
+    padding: 3px;
+    margin: 10px 0;
+}
+
+.proyecto img {
+    width: 100%;
+}
+
+.proyecto div {
+    padding: 0 1rem;
+}
+
+.proyecto h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.red-social {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.red-social img {
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+
+
+.red-social2 {
+    display: flex;
+}
+
+.red-social2 img {
+
+    width: 100px;
+    text-align: center;
+}
+
+form {
+    padding: 0 10px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+label {
+    color: #161616;
+    text-transform: uppercase;
+}
+
+footer {
+    padding: 25px 20px;
+    background: #161616;
+    color: white;
+    text-align: center;
+}
+
+@media (min-width: 980px) {
+   
+    .btn-menu{
+        display: none;
+    }
+
+    nav{
+        display: block;
+        width: auto;
+    }
+    nav ul{
+        display: flex
+    }
+    nav ul li{
+        width: auto;
+        padding: 0 12px;
+    }
+    nav ul li:hover{
+        background-color: #1d71b8;
+        color: white;
+    }
+
+    #encabezado{
+        margin: 50px 25px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .yo-imagen{
+        width: 45%;
+        height: 90vh;
+        
+    }
+    .yo-imagen img{
+        width: 100%;
+    }
+  }
